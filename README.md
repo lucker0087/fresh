@@ -35,7 +35,7 @@ Here is a sample config file with the default settings:
     root:              .
     tmp_path:          ./tmp
     build_name:        runner-build
-    params:
+    params:            server start|stop|restart
     build_log:         runner-build-errors.log
     valid_ext:         .go, .tpl, .tmpl, .html
     no_rebuild_ext:    .tpl, .tmpl, .html
